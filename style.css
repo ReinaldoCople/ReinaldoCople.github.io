@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    line-height: 1.6;
+}
+.container {
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+header {
+    background: #161b22;
+    padding: 1.5rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    font-size: 1.8rem;
+}
+nav a {
+    color: #58a6ff;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #1f6feb;
+}
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1rem;
+}
+.card {
+    background: #21262d;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+.card:hover {
+    background: #30363d;
+}
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 0.9rem;
+    background: #161b22;
+    margin-top: 3rem;
+}
+a {
+    color: #58a6ff;
+}
+a:hover {
+    text-decoration: underline;
+}
